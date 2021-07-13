@@ -16,7 +16,7 @@
     "starter",
     "node-starter"
   ],
-  "author": "Iqan",
+  "author": "Plugnom team",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
