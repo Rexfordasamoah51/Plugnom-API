@@ -1,0 +1,38 @@
+{
+  "name": "plugnom",
+  "version": "1.0.0",
+  "description": "Plugnom is an African web hosting provider that helps take care of all your needs regarding your website",
+  "repository": "https://github.com/Rexfordasamoah51/Plugnom-API.git",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/bin/www",
+    "watch": "nodemon ./src/bin/www",
+    "test": "node_modules/.bin/mocha ./src/test/**/*.js --exit",
+    "lint": "node_modules/.bin/eslint './src/**/*.js' --ignore-path .eslintignore"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "starter",
+    "node-starter"
+  ],
+  "author": "Iqan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "log4js": "^3.0.3",
+    "mongoose": "^5.7.5",
+    "morgan": "^1.9.1",
+    "swagger-ui-express": "^3.0.10",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "eslint": "^5.15.3",
+    "mocha": "^5.0.5",
+    "nodemon": "^1.18.4",
+    "supertest": "^4.0.2"
+  }
+}
