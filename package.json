@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Plugnom is an African web hosting provider that helps take care of all your needs regarding your website",
   "repository": "https://github.com/Rexfordasamoah51/Plugnom-API.git",
-  "main": "index.js",
+  "main": "./src/bin/www",
   "scripts": {
     "start": "node ./src/bin/www",
     "watch": "nodemon ./src/bin/www",

@@ -3,7 +3,7 @@ const appConfig = {
 };
 
 const dbConfig = {
-  mongoUrl: process.env.MONGO_URL || 'mongodb://localhost:27017/notes-app-local'
+  mongoUrl: process.env.MONGO_URL || 'mongodb+srv://plg-user1:!=4Wkaky7GCJ@b7@cluster0.an7gk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 };
 
 const logConfig = {
