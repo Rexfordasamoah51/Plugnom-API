@@ -7,6 +7,6 @@ const authRoutes = require('./authorization');
 //health checker
 router.use('/healthcheck', healthcheckRoutes);
 router.use('/users', usersRoutes)
-// router.use('/login', authRoutes)
+router.use('/login', authRoutes)
 
 module.exports = router;

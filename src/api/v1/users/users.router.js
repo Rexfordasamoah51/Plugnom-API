@@ -10,6 +10,7 @@ const FREE = config.permissionLevels.NORMAL_USER;
 
 router.post('/', [
   UsersController.insert
+
 ]);
 
 router.get('/', [
