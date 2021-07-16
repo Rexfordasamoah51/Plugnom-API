@@ -1,9 +1,10 @@
+const mongoUrl = require('./env.config')['apiEndpoint'];
 const appConfig = {
   port: process.env.PORT || 5050
 };
 
 const dbConfig = {
-  mongoUrl: process.env.MONGO_URL || 'mongodb+srv://plg-user1:!=4Wkaky7GCJ@b7@cluster0.an7gk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+  mongoUrl: process.env.MONGO_URL || mongoUrl
 };
 
 const logConfig = {

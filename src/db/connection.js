@@ -5,7 +5,11 @@ const log = require('../logging');
 
 // create mongo connection
 const createDbConnection = () => {
-  return mongoose.connect(dbConfig.mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true  });
+  return mongoose.connect(dbConfig.mongoUrl, {
+    useNewUrlParser: true, useUnifiedTopology: true, autoIndex: false,
+    poolSize: 10,
+    bufferMaxEntries: 0,
+  });
 }
 
 // get mongo connection object

@@ -22,10 +22,12 @@
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
     "log4js": "^3.0.3",
     "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "swagger-ui-express": "^3.0.10",
+    "uuid": "^8.3.2",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
