@@ -3,11 +3,11 @@ info:
   version: 1.0.0
   title: My API
 servers:
-  - url: http://localhost:3000/api/v1
+  - url: http://localhost:5050/api/v1
 paths:
   /healthcheck:
     get:
-      summary: Healthcheck of API
+      summary: Plugnorm API
       tags:
         [ 'healthcheck' ]
       responses:
