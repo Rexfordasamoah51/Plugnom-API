@@ -11,10 +11,9 @@
     "lint": "node_modules/.bin/eslint './src/**/*.js' --ignore-path .eslintignore"
   },
   "keywords": [
-    "node.js",
-    "express.js",
-    "starter",
-    "node-starter"
+    "Plugnom api",
+    "africa"
+
   ],
   "author": "Plugnom team",
   "license": "ISC",
