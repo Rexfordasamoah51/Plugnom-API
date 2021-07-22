@@ -13,11 +13,11 @@
   "keywords": [
     "Plugnom api",
     "africa"
-
   ],
   "author": "Plugnom team",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "express": "^4.16.4",
