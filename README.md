@@ -1,6 +1,6 @@
-# Plugnom API
+# Poddin API
 
-Plugnom is an African web hosting provider that helps take care of all your needs regarding your website.
+Stay connected with your customers online
 
 [![Build Status](https://travis-ci.org/iqans/node-api-starter.svg?branch=master)](https://github.com/Rexfordasamoah51/Plugnom-API.git)
 

@@ -1,20 +1,19 @@
-const router = require('express').Router();
-const AuthUserMiddleware = require('./authorization.entity');
-const AuthorizationController = require('./authorization.controller');
-const AuthValidationMiddleware = require('./authorization.validation');
+const router = require("express").Router();
+const AuthUserMiddleware = require("./authorization.entity");
+const AuthorizationController = require("./authorization.controller");
+const AuthValidationMiddleware = require("./authorization.validation");
 
-
-router.post('/', [
+router.post("/", [
   AuthUserMiddleware.hasAuthValidFields,
-  AuthUserMiddleware.isPasswordAndUserMatch,
-  AuthorizationController.login
+  AuthUserMiddleware.isPinAndUserMatch,
+  AuthorizationController.login,
 ]);
 
-router.post('/refresh', [
+router.post("/refresh", [
   AuthValidationMiddleware.validJWTNeeded,
   AuthValidationMiddleware.verifyRefreshBodyField,
   AuthValidationMiddleware.validRefreshNeeded,
-  AuthorizationController.login
+  AuthorizationController.login,
 ]);
 
 module.exports = router;

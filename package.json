@@ -1,8 +1,7 @@
 {
-  "name": "plugnom",
+  "name": "poddin",
   "version": "1.0.0",
-  "description": "Plugnom is an African web hosting provider that helps take care of all your needs regarding your website",
-  "repository": "https://github.com/Rexfordasamoah51/Plugnom-API.git",
+  "description": "Stay connected with your customers online",
   "main": "./src/bin/www",
   "scripts": {
     "start": "node ./src/bin/www",
@@ -11,29 +10,35 @@
     "lint": "node_modules/.bin/eslint './src/**/*.js' --ignore-path .eslintignore"
   },
   "keywords": [
-    "Plugnom api",
+    "api",
     "africa"
   ],
-  "author": "Plugnom team",
+  "author": "Poddin team",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1",
-    "body-parser": "^1.18.3",
-    "cors": "^2.8.4",
-    "express": "^4.16.4",
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "log4js": "^3.0.3",
-    "mongoose": "^5.7.5",
-    "morgan": "^1.9.1",
+    "log4js": "^3.0.6",
+    "messagebird": "^3.7.1",
+    "moment": "^2.29.1",
+    "mongodb": "^4.1.4",
+    "mongoose": "^5.13.13",
+    "morgan": "^1.10.0",
+    "otp-generator": "^3.0.0",
     "swagger-ui-express": "^3.0.10",
+    "twilio": "^3.71.1",
     "uuid": "^8.3.2",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
-    "chai": "^4.0.2",
-    "eslint": "^5.15.3",
-    "mocha": "^5.0.5",
-    "nodemon": "^1.18.4",
+    "chai": "^4.3.4",
+    "eslint": "^5.16.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.19.4",
     "supertest": "^4.0.2"
   }
 }

@@ -7,13 +7,12 @@ servers:
 paths:
   /healthcheck:
     get:
-      summary: Plugnorm API
-      tags:
-        [ 'healthcheck' ]
+      summary: PoddinAPI
+      tags: ["healthcheck"]
       responses:
-        '200':
+        "200":
           description: success
-        '500':
+        "500":
           description: unexpected error
           content:
             application/json:
